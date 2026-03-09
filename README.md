@@ -20,19 +20,23 @@ The database consists of three core tables linked via Primary and Foreign keys:
 
 ### 1. The Anomaly Detector (Using CTEs)
 **Objective:** Identify transactions drastically higher than a customer's normal spending habits.
-*(Insert Screenshot 1 Here)*
+<img width="1603" height="865" alt="Screenshot 2026-03-09 154542" src="https://github.com/user-attachments/assets/abf46bb6-27e9-487f-814d-fb59d6c98e7e" />
+
 
 ### 2. Geographical Fraud Profiling
 **Objective:** Create a high-level BI summary of fraud losses grouped by country.
-*(Insert Screenshot 2 Here)*
+<img width="1595" height="603" alt="Screenshot 2026-03-09 155044" src="https://github.com/user-attachments/assets/b61aeba3-d2bc-4574-a7a9-752c1adef669" />
+
 
 ### 3. Time-Series Running Totals
 **Objective:** Calculate the running total of fraudulent spending per account over time using Window Functions.
-*(Insert Screenshot 3 Here)*
+<img width="1608" height="805" alt="Screenshot 2026-03-09 155112" src="https://github.com/user-attachments/assets/d6b493cd-6311-4b68-a067-b2f185d3dda4" />
+
 
 ### 4. ETL Daily Summary View
 **Objective:** Transform raw transaction logs into a daily summary view for dashboarding.
-*(Insert Screenshot 4 Here)*
+<img width="1602" height="696" alt="Screenshot 2026-03-09 155350" src="https://github.com/user-attachments/assets/296ae392-14d9-4595-8e4b-343d4c7f4690" />
+
 
 ## 🚀 How to Run Locally
 1. Run `generate_bank_data.py` to generate the raw CSV files.
